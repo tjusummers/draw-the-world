@@ -1,0 +1,14 @@
+{
+  "name": "draw-the-world",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A level-up drawing game that teaches kids line drawing, cartoons and manga style.",
+  "type": "module",
+  "scripts": {
+    "start": "node tests/serve.mjs 8080",
+    "test": "node tests/scoring.test.mjs && node tests/app.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}
